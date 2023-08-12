@@ -1,0 +1,343 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+    background-color: hsl(0, 0%, 100%);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #000;
+}
+
+.seccion1 {
+    width: 180px;
+}
+
+.logo img {
+    width: 70px;
+    padding-top: 20px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.optmenu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    transition: all 1s solid;
+}
+
+.optmenu:hover {
+    color: #717171;
+    background-color: #6d6d6d;
+    transition: all 1s solid;
+    border-radius: 5px;
+}
+
+.optmenu:active {
+    background-color: #e9d5d593;
+}
+
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+.navbar-toggler {
+    background-color: #8d8f94;
+    border: 3px solid #ffffff;
+}
+
+.navbar-toggler:hover {
+    background-color: #525d6f;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #ffffff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.banner1 {
+    background-image: url("../img/banner1.jpg");
+    position: relative;
+    height: calc(100vh);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+    background-color: rgb(88, 88, 88);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: d 2s ease infinite alternate;
+    transform: skewY(-2deg);
+}
+
+.banner1c {
+    background-image: url("../img/banner1.jpg");
+    position: relative;
+    height: calc(80vh);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+    background-color: rgb(88, 88, 88);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: d 2s ease infinite alternate;
+    transform: skewY(-2deg);
+}
+
+.banner2 {
+    background-image: url("../img/banner2.jpg");
+    position: relative;
+    height: calc(50vh);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    background-color: rgb(88, 88, 88);
+    background-blend-mode: multiply;
+    background-size: cover;
+    animation: a 3s ease infinite alternate;
+}
+
+.titulo1 {
+    font-size: 40px;
+}
+
+.parrafo1 {
+    font-size: 20px;
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.icono1 {
+    width: 80px;
+}
+
+.sect-ubi {
+    background-color: hsl(217, 15%, 38%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 60px;
+    height: 60px;
+    /*fondo de color*/
+    background-color: transparent;
+    /*apariencia adicional*/
+    /*background-color: #0A2791;*/
+    /*border-radius: 50%;*/
+}
+
+
+/*color de flechas*/
+
+
+/*por defecto el icono tiene color blanco*/
+
+
+/*cambiar la propiedad fill por # hexadecimal*/
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.faviimg {
+    width: 60px;
+    height: 60px;
+}
+
+.foo {
+    background-color: hsl(217, 15%, 38%);
+}
+
+.video1 iframe {
+    height: 200px;
+    width: 400px;
+}
+
+.gift {
+    width: 100px;
+}
+
+label.text1.ce {
+    padding-left: 30px;
+}
+
+.im3 {
+    width: 400px;
+    height: 300px;
+}
+
+.im2 {
+    width: 400px;
+    height: 300px;
+}
+
+@media (max-width: 576px) {
+    .pd {
+        font-size: 25px;
+    }
+    .ti-1 {
+        font-size: 25px;
+        color: azure;
+    }
+    .ti-2 {
+        font-size: 47px;
+    }
+    .ti-3 {
+        font-size: 22px;
+        color: azure;
+    }
+    .text1 {
+        font-size: 24px;
+    }
+    .tc {
+        font-size: 35px;
+    }
+}
+
+@media(min-width: 576px) {
+    .pd {
+        font-size: 25px;
+    }
+    .ti-1 {
+        font-size: 25px;
+        color: azure;
+    }
+    .ti-2 {
+        font-size: 47px;
+    }
+    .ti-3 {
+        font-size: 22px;
+        color: azure;
+    }
+    .text1 {
+        font-size: 24px;
+    }
+    .tc {
+        font-size: 35px;
+    }
+}
+
+@media(min-width: 768px) {
+    .pd {
+        font-size: 25px;
+    }
+    .ti-1 {
+        font-size: 25px;
+        color: azure;
+    }
+    .ti-2 {
+        font-size: 47px;
+    }
+    .ti-3 {
+        font-size: 22px;
+        color: azure;
+    }
+    .text1 {
+        font-size: 24px;
+    }
+    .tc {
+        font-size: 35px;
+    }
+}
+
+@media(min-width: 992px) {
+    .pd {
+        font-size: 19px;
+    }
+    .ti-1 {
+        font-size: 19px;
+        color: azure;
+    }
+    .ti-2 {
+        font-size: 36px;
+    }
+    .ti-3 {
+        font-size: 16px;
+        color: azure;
+    }
+    .text1 {
+        font-size: 20px;
+    }
+    .tc {
+        font-size: 35px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .pd {
+        font-size: 19px;
+    }
+    .ti-1 {
+        font-size: 19px;
+        color: azure;
+    }
+    .ti-2 {
+        font-size: 35px;
+    }
+    .ti-3 {
+        font-size: 16px;
+        color: azure;
+    }
+    .text1 {
+        font-size: 20px;
+    }
+    .tc {
+        font-size: 35px;
+    }
+}
+
+@media(min-width: 1400px) {
+    .pd {
+        font-size: 19px;
+    }
+    .ti-1 {
+        font-size: 19px;
+        color: azure;
+    }
+    .ti-2 {
+        font-size: 35px;
+    }
+    .ti-3 {
+        font-size: 16px;
+        color: azure;
+    }
+    .text1 {
+        font-size: 20px;
+    }
+    .tc {
+        font-size: 35px;
+    }
+}
